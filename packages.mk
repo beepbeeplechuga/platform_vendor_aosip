@@ -78,7 +78,17 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     SoundRecorder
 
+# BBL packages
+PRODUCT_PACKAGES += \
+    SnapdragonCamera \
+    Phonograph \
+    Gallery2 \
+    MagiskManager
+
+# Copy Magisk zip
+PRODUCT_COPY_FILES += \
+    vendor/aosip/prebuilt/common/zip/magisk.zip:system/addon.d/magisk.zip
+
 # World APN list
 PRODUCT_COPY_FILES += \
     vendor/aosip/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml
-

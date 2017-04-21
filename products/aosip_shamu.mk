@@ -4,7 +4,7 @@
 TARGET_SCREEN_HEIGHT := 2560
 TARGET_SCREEN_WIDTH := 1440
 
-PRODUCT_BUILD_PROP_OVERRIDES += DEVICE_MAINTAINERS="Michael S Corigliano (Mike Criggs)"
+PRODUCT_BUILD_PROP_OVERRIDES += DEVICE_MAINTAINERS="BeepBeep Lechuga"
 
 # Inherit some common aosip stuff.
 $(call inherit-product, vendor/aosip/common.mk)
