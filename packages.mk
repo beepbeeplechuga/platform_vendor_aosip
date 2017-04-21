@@ -83,7 +83,8 @@ PRODUCT_PACKAGES += \
     SnapdragonCamera \
     Phonograph \
     Gallery2 \
-    MagiskManager
+    MagiskManager \
+    SnapBrowser
 
 # Copy Magisk zip
 PRODUCT_COPY_FILES += \
