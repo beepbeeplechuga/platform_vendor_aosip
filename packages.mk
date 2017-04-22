@@ -81,7 +81,6 @@ PRODUCT_PACKAGES += \
 # BBL packages
 PRODUCT_PACKAGES += \
     SnapdragonCamera \
-    Phonograph \
     Gallery2 \
     MagiskManager
 
