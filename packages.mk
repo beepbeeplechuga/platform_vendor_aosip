@@ -80,7 +80,7 @@ PRODUCT_PACKAGES += \
 
 # BBL packages
 PRODUCT_PACKAGES += \
-    SnapdragonCamera \
+    Snap \
     Gallery2 \
     MagiskManager
 
